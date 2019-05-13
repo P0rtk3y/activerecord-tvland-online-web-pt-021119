@@ -1,6 +1,6 @@
 class CreateActors < ActiveRecord::Migration[5.2]
   def change 
-    create table :actors do |a|
+    create_table :actors do |a|
       a.string :first_name 
       a.string :last_name 
     end 
